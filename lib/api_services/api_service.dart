@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 
-import 'models.dart';
+import '../models/models.dart';
 
 class ApiService {
   static const String _baseUrl = 'https://api-ten-delta-32.vercel.app/api/data';

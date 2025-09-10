@@ -1,7 +1,8 @@
-class ChapterSummary {
+class ChapterSummary
+{
   final int id;
   final String title;
-  final String type; // e.g., prose, poem
+  final String type;
 
   const ChapterSummary({required this.id, required this.title, required this.type});
 
